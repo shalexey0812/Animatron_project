@@ -1,0 +1,10 @@
+2024-03-18 09:54:15 - Program started.
+2024-03-18 09:54:15 - Photos directory verified.
+2024-03-18 09:54:15 - Detectron2 model initialized with config: C:/Users/alexs/coder/shaitan/detectron2/configs/COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml
+2024-03-18 09:54:15 - Model and Telegram bot are initialized.
+2024-03-18 09:54:15 - Telegram bot initialized.
+2024-03-18 09:54:20 - Message sent: Alert! There are unwanted species in the chicken coop!
+2024-03-18 09:54:20 - Photo sent: Animatron_photos\detected_20240318_095420.jpg
+2024-03-18 09:54:20 - Detected animals and notified at 20240318_095420.
+2024-03-18 09:54:24 - Program terminated by user.
+2024-03-18 09:54:24 - Program ended.
