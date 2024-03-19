@@ -134,7 +134,7 @@ class TelegramBot:
 
 # Initialize the Detectron2 model with the specified configuration and weights
 setup_logger()
-animal_ids = [0, 15, 16, 17, 18, 19, 20, 21, 22, 23]  # List of animal class IDs to detect
+animal_ids = [0, 15, 16, 17, 18, 19, 20, 21, 22, 23]
 config_path = "C:/Users/alexs/coder/shaitan/detectron2/configs/COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml"
 weights_url = get_checkpoint_url("COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml")
 model = DetectronModel(config_path, weights_url, threshold=0.9, animal_ids=animal_ids)
@@ -142,7 +142,7 @@ model = DetectronModel(config_path, weights_url, threshold=0.9, animal_ids=anima
 log_message("Model and Telegram bot are initialized.")
 
 # Initialize the Telegram bot with the specified bot token and chat ID
-bot = TelegramBot(bot_token="7053063884:AAG5LQPQ1OcCSrXneatH05032U2SUv746H0", chat_id="609074184")
+bot = TelegramBot(bot_token="some_token", chat_id="some_chat_id")
 
 # Function to check for start/stop commands from the Telegram bot
 def check_bot_commands(bot):
